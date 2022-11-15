@@ -1,0 +1,47 @@
+name: yulib_manager
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.4
+  get_it: ^7.2.0
+  firebase_core: ^2.2.0
+  firebase_auth: ^4.1.2
+  cloud_firestore: ^4.0.5
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.1
+  cached_network_image: ^3.2.2
+  qr_code_scanner: ^1.0.1
+  intl: ^0.17.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - map.json
+    - assets/fonts/
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    - family: Baloo2
+      fonts:
+        - asset: assets/fonts/Baloo2-Regular.ttf
+        - asset: assets/fonts/Baloo2-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Baloo2-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Baloo2-Bold.ttf
+          weight: 700
+
+
+
+
